@@ -1,0 +1,1 @@
+<wordcloud.wordcloud.WordCloud object at 0x10211ba90>

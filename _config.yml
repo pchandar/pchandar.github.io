@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: false
+
+# Setup
+title:
+tagline:          'Praveen Chandar'
+description:      ''
+url:              http://pchandar.github.io
+baseurl:          /
+
+author:
+  name:           'Praveen Chandar'
+  url:            https://twitter.com/semanticpc
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/semanticpc
