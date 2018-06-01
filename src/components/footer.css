@@ -1,0 +1,36 @@
+.cf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  font-size: .9em;
+  border-top: 2px solid #0d1a00;
+}
+.copyright {
+  margin-top: 10px;
+  margin-left: 5px;
+  display: table-row;
+  float: left;
+}
+.colophon {
+  display: table-row;
+  margin-right: 5px;
+  float: right;
+}
+.colophon a b {
+  color: red;
+  
+}
+.social-icons {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    text-align: right;
+    list-style: none;
+
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}

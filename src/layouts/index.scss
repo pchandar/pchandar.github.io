@@ -1,0 +1,282 @@
+// Colors
+//
+// Grayscale and brand colors for use across Bootstrap.
+
+// Start with assigning color names to specific hex values.
+//
+// Color system
+//
+
+// Reassign color vars to semantic color scheme
+// $theme-colors: (
+//   primary: $purple,
+//   secondary: $gray-600,
+//   success: $green,
+//   info: $cyan,
+//   warning: $yellow,
+//   danger: $red,
+//   light: $gray-100,
+//   dark: $gray-800
+// ) !default;
+
+// Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+$enable-rounded: true !default;
+$enable-shadows: true !default;
+$enable-gradients: false !default;
+$enable-transitions: false !default;
+$enable-hover-media-query: false !default;
+$enable-grid-classes: true !default;
+$enable-print-styles: true !default;
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-widths: (
+  sm: 540px,
+  md: 640px,
+  lg: 740px,
+  xl: 840px
+) !default;
+
+// Body
+//
+// Settings for the `<body>` element.
+
+// $body-bg: $white !default;
+// $body-color: $gray-700 !default;
+// $inverse-bg: $gray-900 !default;
+// $inverse-color: $gray-600 !default;
+
+// Links
+//
+// Style anchor elements.
+$link-decoration: none !default;
+$link-hover-decoration: none !default;
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+
+
+/* Source Sans Pro
+-------------------------------------------------- */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../data/fonts/sourcesanspro-300.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../data/fonts/sourcesanspro-400.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: url(../data/fonts/sourcesanspro-600.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 400;
+  src: url(../data/fonts/sourcesanspro-400-italic.woff) format('woff');
+}
+
+ol, ul, dl, p{
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Reset
+-------------------------------------------------- */
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, nav, section, summary {
+  display: block;
+}
+
+
+/* Pix
+-------------------------------------------------- */
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Links
+-------------------------------------------------- */
+
+a:link,
+a:visited {
+	color: #004b33;
+	text-decoration: none;
+}
+a:hover,
+a:active {
+	color: #63914A;
+}
+
+/* Clearfix
+-------------------------------------------------- */
+.cf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Site
+-------------------------------------------------- */
+html {
+  height: 100%;
+  //font-family: "Source Sans Pro", sans-serif;
+  font-family: Roboto;
+    font-size: 14px;
+    line-height: 1.6em;
+    letter-spacing: 0px;
+    font-weight: 300;
+    font-style: normal;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+body {
+  margin: 0 auto;
+  font-size: 1em;
+  line-height: 1.5em;
+  padding: 1.5em;
+  max-width: 54em;
+  background: #fff;
+  color: #222;
+}
+
+/* Headings
+-------------------------------------------------- */
+h1 {
+  font-size: 1.75em;
+  line-height: 1.25em;
+  font-weight: 400;
+  margin-bottom: .5em;
+  color: #2EB907;
+}
+h2 {
+  font-size: 1.5em;
+  line-height: 1.25em;
+  font-weight: 300;
+  margin-bottom: .5em;
+  color: red;
+}
+h3 {
+  font-size: 1.25em;
+  line-height: 1.5em;
+  font-weight: 400;
+  margin-top: 1.5em;
+  margin-bottom: .5em;
+}
+h4 {
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 1.5em;
+  margin-bottom: .5em;
+  color: red;
+}
+h1 a, h2 a, h3 a, h4 a {
+  color: inherit;
+  border: 0 !important;
+}
+
+/* Main
+-------------------------------------------------- */
+.main {
+  padding-bottom: 1.5em;
+  
+}
+.main hr {
+  margin: 3em 0;
+  height: 2px;
+  background: #ddd;
+}
+.main p,
+.main figure,
+.main ul,
+.main ol {
+  margin-bottom: 1.5em;
+}
+.main a {
+  border-bottom: 2px solid #ddd;
+}
+.main a:hover {
+  border-color: #222;
+}
+
+/* Text blocks */
+.text ul,
+.text ol {
+  margin-left: .35em;
+}
+
+/* Project meta
+-------------------------------------------------- */
+.meta {
+  margin-bottom: 1.5em;
+}
+.meta li {
+  float: left;
+  list-style: none;
+  margin-right: 2em;
+  color: red;
+}
+.meta li b {
+  font-weight: 400;
+  color: #000;
+  padding-right: .25em;
+}
+
+
+/* Project teaser
+-------------------------------------------------- */
+.teaser {
+  list-style: none;
+}
+.teaser li {
+  margin-bottom: 1.5em;
+  list-style: none;
+}
+@media screen and (min-width: 50em) {
+  .teaser li {
+    float: left;
+    width: 30%;
+    margin-left: 5%;
+  }
+  .teaser li:first-child {
+    margin-left: 0;
+  }
+}
+
+
+/* Next/Prev nav
+-------------------------------------------------- */
+.nextprev {
+  padding: 1em 0;
+}
+.nextprev a {
+  border: 0;
+}
+.nextprev .prev {
+  float: left;
+}
+.nextprev .next {
+  float: right;
+}
+
+
