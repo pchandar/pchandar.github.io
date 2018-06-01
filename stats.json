@@ -1,0 +1,60 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-a8016877b59f066ddda8.js",
+      "component---src-pages-index-js-a8016877b59f066ddda8.js.map"
+    ],
+    "component---src-pages-research-js": [
+      "component---src-pages-research-js-25ce6ea0a8f48662e226.js",
+      "component---src-pages-research-js-25ce6ea0a8f48662e226.js.map"
+    ],
+    "path---": [
+      "path----ad46d83d0e7f91840799.js",
+      "path----ad46d83d0e7f91840799.js.map"
+    ],
+    "path---research": [
+      "path---research-a0e39f21c11f6a62c5ab.js",
+      "path---research-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-fdf754655bb9781e2c44.js",
+      "component---src-layouts-index-js-fdf754655bb9781e2c44.js.map"
+    ],
+    "path---publication": [
+      "path---publication-35a2b6d67c3a654e3e3b.js",
+      "path---publication-35a2b6d67c3a654e3e3b.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+    ],
+    "commons": [
+      "commons-9299d77f0fa382d97d8e.js",
+      "build-js-styles.css",
+      "commons-9299d77f0fa382d97d8e.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-ab36447c0a03f79d22fd.js",
+      "build-js-styles.css",
+      "app-ab36447c0a03f79d22fd.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-publication-js": [
+      "component---src-pages-publication-js-d77fb37163c4f788ef4b.js",
+      "component---src-pages-publication-js-d77fb37163c4f788ef4b.js.map"
+    ]
+  }
+}
