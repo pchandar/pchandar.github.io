@@ -73,7 +73,6 @@ class PublicationPage extends React.Component {
   }
 
   render() {
-    console.log(this.state.publicURLMap)
     return (
       <div>
         <ButtonDropdown className="pubsfilter" size="sm" isOpen={this.state.dropdownOpen} toggle={this.toggle}>

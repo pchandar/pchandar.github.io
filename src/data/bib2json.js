@@ -19,6 +19,8 @@ function BibtexParser() {
     NOV: "November",
     DEC: "December"
   };
+
+
   this.currentKey = "";
   this.currentEntry = "";
 
@@ -234,11 +236,25 @@ function BibtexParser() {
 }
 
 function createJSON(key, entry) {
+  month_map = {
+    "January": 1,
+    "February": 2,
+    "March": 3,
+    "April": 4,
+    "May": 5,
+    "June": 6,
+    "July": 7,
+    "August": 8,
+    "September": 9,
+    "October": 10,
+    "November": 11,
+    "December": 12
+  };
   var jsonEntry = {};
   jsonEntry['title'] = entry['TITLE'];
   jsonEntry['authors'] = entry['AUTHOR'].split(' and ').map(n => (n.split(',')[1].trim()[0]) + ". " + n.split(',')[0]);
   jsonEntry['year'] = entry['YEAR'];
-
+  jsonEntry['month'] = month_map[entry['MONTH'].toLowerCase()];
   // Extract Article Details 
   if (entry['entryType'] == 'ARTICLE') {
     jsonEntry['details'] = entry['JOURNAL'];
@@ -262,8 +278,10 @@ function createJSON(key, entry) {
   jsonEntry['bib'] = key.toLowerCase() + '.bib';
   jsonEntry['meta'] = key.toLowerCase() + '.json';
   return jsonEntry;
-
 }
+
+
+
 function writeJSON(json, prefix) {
   fs.writeFile(prefix + "/" + json['meta'], JSON.stringify(json), function (err) {
     if (err) {
