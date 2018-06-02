@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-a8016877b59f066ddda8.js",
-      "component---src-pages-index-js-a8016877b59f066ddda8.js.map"
+      "component---src-pages-index-js-56c748fb02a5ecd347ad.js",
+      "component---src-pages-index-js-56c748fb02a5ecd347ad.js.map"
     ],
     "component---src-pages-research-js": [
       "component---src-pages-research-js-25ce6ea0a8f48662e226.js",
@@ -21,12 +21,12 @@
       "component---src-layouts-index-js-fdf754655bb9781e2c44.js.map"
     ],
     "path---publication": [
-      "path---publication-35a2b6d67c3a654e3e3b.js",
-      "path---publication-35a2b6d67c3a654e3e3b.js.map"
+      "path---publication-73fb81b46a36d339bad7.js",
+      "path---publication-73fb81b46a36d339bad7.js.map"
     ],
     "path---index": [
-      "path---index-a0e39f21c11f6a62c5ab.js",
-      "path---index-a0e39f21c11f6a62c5ab.js.map"
+      "path---index-1bb9465bb6be078ad06f.js",
+      "path---index-1bb9465bb6be078ad06f.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -53,8 +53,8 @@
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-publication-js": [
-      "component---src-pages-publication-js-d77fb37163c4f788ef4b.js",
-      "component---src-pages-publication-js-d77fb37163c4f788ef4b.js.map"
+      "component---src-pages-publication-js-616632b389b9c7d9a011.js",
+      "component---src-pages-publication-js-616632b389b9c7d9a011.js.map"
     ]
   }
 }
