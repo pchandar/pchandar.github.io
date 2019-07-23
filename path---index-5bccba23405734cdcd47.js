@@ -1,0 +1,2 @@
+webpackJsonp([0x81b8806e4260],{275:function(e,a){e.exports={data:{allFile:{edges:[{node:{id:"/Users/praveenr/code/praveen/tmp/pchandar.github.io/src/data/cv.pdf absPath of file",name:"cv",relativePath:"cv.pdf",publicURL:"/static/cv-92ccee951fd922e51cd2ecac8d77a236.pdf"}}]}},pathContext:{}}}});
+//# sourceMappingURL=path---index-5bccba23405734cdcd47.js.map
