@@ -32,8 +32,10 @@ class PublicationPage extends React.Component {
       return 1;
     if (a.node.year > b.node.year)
       return -1;
-    if (a.node.year == b.node.year)
+    if (a.node.year == b.node.year){
+      console.log(a.node.month)
       return (a.node.month < b.node.month) ? 1 : -1;
+    }
     return 0;
   }
 
@@ -107,6 +109,7 @@ export const query = graphql`
         details
         authors
         year
+        month
         ptype
         pdf
         bib
