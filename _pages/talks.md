@@ -11,13 +11,13 @@ Tutorials
 <p style="font-family: 'Lato'">
 Mixed Method Development of Evaluation Metrics[<a href="">slides</a>]<br>
 Praveen Chandar, Brian St., Christine Hosey, Fernando Diaz<br>
-<a href="">KDD 2021</a>
+<a href="https://kdd2021-mixedmethods.github.io/">KDD 2021 (Website)</a>
 </p>
 
 <p style="font-family: 'Lato'">
 Beyond Accuracy: Grounding Evaluation Metrics for Human-Machine Learning Systems [<a href="">slides</a>]<br>
 Praveen Chandar, Brian St. Thomas, Fernando Diaz<br>
-<a href="">NeurIPS 2020</a>
+<a href="https://nips.cc/virtual/2020/public/tutorial_a9588aa82388c0579d8f74b4d02b895f.html">NeurIPS 2020 (Video)</a>
 </p>
 
 Recent Talks
