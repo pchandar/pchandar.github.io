@@ -1,0 +1,640 @@
+
+@inbook{Hashemi2021,
+author = {Hashemi, Helia and Pappu, Aasish and Tian, Mi and Chandar, Praveen and Lalmas, Mounia and Carterette, Benjamin},
+title = {Neural Instant Search for Music and Podcast},
+year = {2021},
+series = {KDD '21},
+isbn = {9781450383325},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3447548.3467188},
+abstract = {Over recent years, podcasts have emerged as a novel medium for sharing and broadcasting information over the Internet. Audio streaming platforms originally designed for music content, such as Amazon Music, Pandora, and Spotify, have reported a rapid growth, with millions of users consuming podcasts every day. With podcasts emerging as a new medium for consuming information, the need to develop information access systems that enable efficient and effective discovery from a heterogeneous collection of music and podcasts is more important than ever. However, information access in such domains still remains understudied. In this work, we conduct a large-scale log analysis to study and compare podcast and music search behavior on Spotify, a major audio streaming platform. Our findings suggest that there exist fundamental differences in user behavior while searching for podcasts compared to music. Specifically, we identify the need to improve podcast search performance. We propose a simple yet effective transformer-based neural instant search model that retrieves items from a heterogeneous collection of music and podcast content. Our model takes advantage of multi-task learning to optimize for a ranking objective in addition to a query intent type identification objective. Our experiments on large-scale search logs show that the proposed model significantly outperforms strong baselines for both podcast and music queries.},
+booktitle = {Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery &amp; Data Mining},
+pages = {2984–2992},
+numpages = {9}
+}
+
+@inbook{Chandar2021,
+author = {Chandar, Praveen and St. Thomas, Brian and Hosey, Christine and Diaz, Fernando},
+title = {Mixed Method Development of Evaluation Metrics},
+year = {2021},
+series = {KDD '21},
+isbn = {9781450383325},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3447548.3470802},
+abstract = {Designers of online search and recommendation services often need to develop metrics to assess system performance. This tutorial focuses on mixed methods approaches to developing user-focused evaluation metrics. This starts with choosing how data is logged or how to interpret current logged data, with a discussion of how qualitative insights and design decisions can restrict or enable certain types of logging. When we create a metric from that logged data, there are underlying assumptions about how users interact with the system and evaluate those interactions. We will cover what these assumptions look like for some traditional system evaluation metrics and highlight quantitative and qualitative methods that investigate and adapt these assumptions to be more explicit and expressive of genuine user behavior. We discuss the role that mixed methods teams can play at each stage of metric development, starting with data collection, designing both online and offline metrics, and supervising metric selection for decision making. We describe case studies and examples of these methods applied in the context of evaluating personalized search and recommendation systems. Finally, we close with practical advice for applied quantitative researchers who may be in the early stages of planning collaborations with qualitative researchers for mixed methods metrics development.},
+booktitle = {Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery &amp; Data Mining},
+pages = {4070–4071},
+numpages = {2}
+}
+
+@inproceedings{Zhenwen2020,
+ author = {Dai, Zhenwen and Chandar, Praveen and Fazelnia, Ghazal and Carterette, Benjamin and Lalmas, Mounia},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin},
+ pages = {1106--1116},
+ series = {Neurips '20},
+ publisher = {Curran Associates, Inc.},
+ title = {Model Selection for Production System via Automated Online Experiments},
+ url = {https://proceedings.neurips.cc/paper/2020/file/0c72cb7ee1512f800abe27823a792d03-Paper.pdf},
+ volume = {33},
+ year = {2020}
+}
+
+
+
+@InProceedings{Tomasi2020,
+  title = 	 {Stochastic Variational Inference for Dynamic Correlated Topic Models},
+  author =       {Tomasi, Federico and Chandar, Praveen and Levy-Fix, Gal and Lalmas-Roelleke, Mounia and Dai, Zhenwen},
+  booktitle = 	 {Proceedings of the 36th Conference on Uncertainty in Artificial Intelligence (UAI)},
+  pages = 	 {859--868},
+  year = 	 {2020},
+  editor = 	 {Peters, Jonas and Sontag, David},
+  volume = 	 {124},
+  series = 	 {UAI '20},
+  month = 	 {03--06 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v124/tomasi20a/tomasi20a.pdf},
+  url = 	 {https://proceedings.mlr.press/v124/tomasi20a.html},
+  abstract = 	 {Correlated topic models (CTM) are useful tools for statistical analysis of documents. They explicitly capture the  correlation between  topics associated with each document.  We propose an extension to CTM that models the evolution of both topic correlation and word co-occurrence over time. This allows us to identify the changes of topic correlations over time, e.g., in the machine learning literature, the correlation between the topics “stochastic gradient descent” and “variational inference” increased in the last few years due to advances in stochastic variational inference methods. Our temporal dynamic priors are based on Gaussian processes (GPs), allowing us to capture diverse temporal behaviours such as smooth, with long-term memory, temporally concentrated, and periodic. The evolution of topic correlations is modeled through generalised Wishart processes (GWPs). We develop a stochastic variational inference method, which enables us to handle large sets of continuous temporal data. Our experiments applied to real world data demonstrate that our model can be used to effectively discover temporal patterns of topic distributions, words associated to topics and topic relationships.}
+}
+
+@inbook{Chandar2020,
+author = {Chandar, Praveen and McInerney, James and Brost, Brian and Mehrotra, Rishabh and Carterette, Benjamin},
+title = {Counterfactual Evaluation of Slate Recommendations with Sequential Reward Interactions},
+year = {2020},
+series = 	 {KDD '20},
+isbn = {9781450379984},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3394486.3403229},
+abstract = {Users of music streaming, video streaming, news recommendation, and e-commerce services often engage with content in a sequential manner. Providing and evaluating good sequences of recommendations is therefore a central problem for these services. Prior reweighting-based counterfactual evaluation methods either suffer from high variance or make strong independence assumptions about rewards. We propose a new counterfactual estimator that allows for sequential interactions in the rewards with lower variance in an asymptotically unbiased manner. Our method uses graphical assumptions about the causal relationships of the slate to reweight the rewards in the logging policy in a way that approximates the expected sum of rewards under the target policy. Extensive experiments in simulation and on a live recommender system show that our approach outperforms existing methods in terms of bias and data efficiency for the sequential track recommendations problem.},
+booktitle = {Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining},
+pages = {1779–1788},
+numpages = {10}
+}
+
+@inproceedings{10.1145/3391403.3399532,
+author = {Holtz, David and Carterette, Ben and Chandar, Praveen and Nazari, Zahra and Cramer, Henriette and Aral, Sinan},
+title = {The Engagement-Diversity Connection: Evidence from a Field Experiment on Spotify},
+year = {2020},
+isbn = {9781450379755},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3391403.3399532},
+doi = {10.1145/3391403.3399532},
+abstract = {We present results from a large-scale, randomized field experiment on Spotify testing the effect of personalized recommendations on consumption diversity. In the experiment, both control and treatment users were given podcast recommendations, with the sole aim of increasing podcast consumption. However, the recommendations provided to treatment users were personalized based on their music listening history, whereas control users were recommended the most popular podcasts among users in their demographic group. Consistent with previous studies, we find that the treatment increased the average number of podcast streams per user. However, we also find the treatment decreased the average individual-level diversity of podcast streams and increased the aggregate diversity of podcast streams, indicating that personalized recommendations have the potential to create consumption patterns that are homogenous within users and diverse across users. Our results provide evidence of an "engagement-diversity trade-off" when optimizing solely for increased consumption: while personalized recommendations increase user engagement, they also affect the diversity of content that users consume. This shift in consumption diversity can affect user retention and lifetime value, and also impact the optimal strategy for content producers. Additional analyses suggest that exposure to personalized recommendations can also affect the content that users consume organically. We believe these findings highlight the need for both academics and practitioners to continue investing in approaches to personalization that explicitly take into account the diversity of content recommended to users.},
+booktitle = {Proceedings of the 21st ACM Conference on Economics and Computation},
+pages = {75–76},
+numpages = {2},
+keywords = {field experiments, diversity, recommender systems},
+location = {Virtual Event, Hungary},
+series = {EC '20}
+}
+
+@TECHREPORT{Fernandez2020,
+title = {A Comparison of Methods for Treatment Assignment with an Application to Playlist Generation},
+author = {Fernandez-Loria, Carlos and Provost, Foster and Anderton, Jesse and Carterette, Benjamin and Chandar, Praveen},
+year = {2021},
+institution = {arXiv.org},
+type = {Papers},
+series = {Information Systems Research '20},
+abstract = {This study presents a systematic comparison of methods for individual treatment assignment, a general problem that arises in many applications and has received significant attention from economists, computer scientists, and social scientists. We characterize the various methods proposed in the literature into three general approaches: learning models to predict outcomes, learning models to predict causal effects, and learning models to predict optimal treatment assignments. We show analytically that optimizing for outcome or causal effect prediction is not the same as optimizing for treatment assignments, and thus we should prefer learning models that optimize for treatment assignments. We then compare and contrast the three approaches empirically in the context of choosing, for each user, the best algorithm for playlist generation in order to optimize engagement. This is the first comparison of the different treatment assignment approaches on a real-world application at scale (based on more than half a billion individual treatment assignments). Our results show (i) that applying different algorithms to different users can improve streams substantially compared to deploying the same algorithm for everyone, (ii) that personalized assignments improve substantially with larger data sets, and (iii) that learning models by optimizing for treatment assignment can increase engagement by 28% more than when optimizing for outcome or causal effect predictions.},
+url = {https://EconPapers.repec.org/RePEc:arx:papers:2004.11532}
+}
+
+@inbook{10.1145/3366423.3380260,
+author = {Li, Ang and Wang, Alice and Nazari, Zahra and Chandar, Praveen and Carterette, Benjamin},
+title = {Do Podcasts and Music Compete with One Another? Understanding Users’ Audio Streaming Habits},
+year = {2020},
+isbn = {9781450370233},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3366423.3380260},
+abstract = {Over the past decade, podcasts have been one of the fastest growing online streaming media. Many online audio streaming platforms such as Pandora, Spotify, etc. that traditionally focused on music content have started to incorporate services related to podcasts. Although incorporating new media types such as podcasts has created tremendous opportunities for these streaming platforms to expand their content offering, it also introduces new challenges. Since the functional use of podcasts and music may largely overlap for many people, the two types of content may compete with one another for the finite amount of time that users may allocate for audio streaming. As a result, incorporating podcast listening may influence and change the way users have originally consumed music. Adopting quasi-experimental techniques, the current study assesses the causal influence of adding a new class of content on user listening behavior by using large scale observational data collected from a widely used audio streaming platform. Our results demonstrate that podcast and music consumption compete slightly but do not replace one another – users open another time window to listen to podcasts. In addition, users who have added podcasts to their music listening demonstrate significantly different consumption habits for podcasts vs. music in terms of the streaming time, duration and frequency. Taking all the differences as input features to a machine learning model, we demonstrate that a podcast listening session is predictable at the start of a new listening session. Our study provides a novel contribution for online audio streaming and consumption services to understand their potential consumers and to best support their current users with an improved recommendation system.},
+booktitle = {Proceedings of The Web Conference 2020},
+pages = {1920–1931},
+series = {WWW '20},
+numpages = {12}
+}
+
+@inproceedings{Chandar2019,
+ author = {Chandar, Praveen and Garcia-Gathright, Jean and Hosey, Christine and St. Thomas, Brian and Thom, Jennifer},
+ title = {Developing Evaluation Metrics for Instant Search Using Mixed Methods Methods},
+ booktitle = {Proceedings of the 42Nd International ACM SIGIR Conference on Research and Development in Information Retrieval},
+ series = {SIGIR '19},
+ year = {2019},
+ month= {July},
+ isbn = {978-1-4503-6172-9},
+ location = {Paris, France},
+ pages = {925--928},
+ numpages = {4},
+ url = {http://doi.acm.org/10.1145/3331184.3331293},
+ doi = {10.1145/3331184.3331293},
+ acmid = {3331293},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {instant search, instant search metrics, ir evaluation, mixed methods},
+ abstract = {Instant search has become a popular search paradigm in which users are shown a new result page in response to every keystroke triggered. Over recent years, the paradigm has been widely adopted in several domains including  personal email search, e-commerce, and music search. However, the topic of evaluation and metrics for such systems has been less explored in the literature thus far.  
+
+In this work, we describe a mixed methods approach to understanding user expectations and evaluating an instant search system in the context of music search. Our methodology involves conducting a set of user interviews to gain a qualitative understanding of users' behaviors and their expectations. The hypotheses from user research are then extended and verified by a large-scale quantitative analysis of interaction logs. Using music search as a lens, we show that researchers and practitioners can interpret the behavior logs more effectively when accompanied by insights from qualitative research. We demonstrate that metrics identified using our approach are more sensitive than the commonly used click-through rate metric for instant search.}
+}
+
+@inproceedings{Li2019,
+ author = {Li, Ang and Thom, Jennifer and Chandar, Praveen and Hosey, Christine and Thomas, Brian St. and Garcia-Gathright, Jean},
+ title = {Search Mindsets: Understanding Focused and Non-Focused Information Seeking in Music Search},
+ booktitle = {The World Wide Web Conference},
+ series = {WWW '19},
+ year = {2019},
+ month= {May},
+ isbn = {978-1-4503-6674-8},
+ location = {San Francisco, CA, USA},
+ pages = {2971--2977},
+ numpages = {7},
+ url = {http://doi.acm.org/10.1145/3308558.3313627},
+ doi = {10.1145/3308558.3313627},
+ acmid = {3313627},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {information need, mixed methods, music search},
+ abstract = {Music listening is a commonplace activity that has transformed
+as users engage with online streaming platforms. When presented
+with anytime, anywhere access to a vast catalog of music, users face
+challenges in searching for what they want to hear. We propose
+that users who engage in domain-specific search (e.g., music search)
+have different information-seeking needs than in general search.
+Using a mixed-method approach that combines a large-scale user
+survey with behavior data analyses, we describe the construct of
+search mindset on a leading online streaming music platform and
+then investigate two types of search mindsets: focused, where a
+user is looking for one thing in particular, and non-focused, where
+a user is open to different results. Our results reveal that searches in
+the music domain are more likely to be focused than non-focused.
+In addition, users’ behavior (e.g., clicks, streams, querying, etc.) on
+a music search system is influenced by their search mindset. Finally,
+we propose design implications for music search systems to best
+support their users.}
+} 
+
+@inproceedings{Gruson2019,
+ author = {Gruson, Alois and Chandar, Praveen and Charbuillet, Christophe and McInerney, James and Hansen, Samantha and Tardieu, Damien and Carterette, Ben},
+ title = {Offline Evaluation to Make Decisions About Playlist Recommendation Algorithms},
+ booktitle = {Proceedings of the Twelfth ACM International Conference on Web Search and Data Mining},
+ series = {WSDM '19},
+ year = {2019},
+ month= {February},
+ isbn = {978-1-4503-5940-5},
+ location = {Melbourne VIC, Australia},
+ pages = {420--428},
+ numpages = {9},
+ url = {http://doi.acm.org/10.1145/3289600.3291027},
+ doi = {10.1145/3289600.3291027},
+ acmid = {3291027},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {counterfactual analysis, experimentation, music recommendation, offline experimentation, online experimentation, personalization, playlist recommendation, recommendation},
+ abstract = {Evaluating algorithmic recommendations is an important, but difficult, problem. Evaluations conducted offline using data collected
+from user interactions with an online system often suffer from biases arising from the user interface or the recommendation engine.
+Online evaluation (A/B testing) can more easily address problems
+of bias, but depending on setting can be time-consuming and incur
+risk of negatively impacting the user experience, not to mention
+that it is generally more difficult when access to a large user base is
+not taken as granted. A compromise based on counterfactual analysis is to present some subset of online users with recommendation
+results that have been randomized or otherwise manipulated, log
+their interactions, and then use those to de-bias offline evaluations
+on historical data. However, previous work does not offer clear
+conclusions on how well such methods correlate with and are able
+to predict the results of online A/B tests. Understanding this is crucial to widespread adoption of new offline evaluation techniques in
+recommender systems.
+In this work we present a comparison of offline and online evaluation results for a particular recommendation problem: recommending playlists of tracks to a user looking for music. We describe
+two different ways to think about de-biasing offline collections for
+more accurate evaluation. Our results show that, contrary to much
+of the previous work on this topic, properly-conducted offline experiments do correlate well to A/B test results, and moreover that
+we can expect an offline evaluation to identify the best candidate
+systems for online testing with high probability.Evaluating algorithmic recommendations is an important, but difficult, problem. Evaluations conducted offline using data collected
+from user interactions with an online system often suffer from biases arising from the user interface or the recommendation engine.
+Online evaluation (A/B testing) can more easily address problems
+of bias, but depending on setting can be time-consuming and incur
+risk of negatively impacting the user experience, not to mention
+that it is generally more difficult when access to a large user base is
+not taken as granted. A compromise based on counterfactual analysis is to present some subset of online users with recommendation
+results that have been randomized or otherwise manipulated, log
+their interactions, and then use those to de-bias offline evaluations
+on historical data. However, previous work does not offer clear
+conclusions on how well such methods correlate with and are able
+to predict the results of online A/B tests. Understanding this is crucial to widespread adoption of new offline evaluation techniques in
+recommender systems.
+In this work we present a comparison of offline and online evaluation results for a particular recommendation problem: recommending playlists of tracks to a user looking for music. We describe
+two different ways to think about de-biasing offline collections for
+more accurate evaluation. Our results show that, contrary to much
+of the previous work on this topic, properly-conducted offline experiments do correlate well to A/B test results, and moreover that
+we can expect an offline evaluation to identify the best candidate
+systems for online testing with high probability.}
+} 
+
+@inproceedings{Chandar2018,
+ author = {Chandar, Praveen and Carterette, Ben},
+ title = {Estimating Clickthrough Bias in the Cascade Model},
+ booktitle = {Proceedings of the 27th ACM International Conference on Information and Knowledge Management},
+ series = {CIKM '18},
+ year = {2018},
+ month= {October},
+ isbn = {978-1-4503-6014-2},
+ location = {Torino, Italy},
+ pages = {1587--1590},
+ numpages = {4},
+ url = {http://doi.acm.org/10.1145/3269206.3269315},
+ doi = {10.1145/3269206.3269315},
+ acmid = {3269315},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {counterfactual evaluation, experimentation, measurement},
+ abstract = {Recently, there has been considerable interest in the use of historical logged user interaction data—queries and clicks—for evaluation
+of search systems in the context of counterfactual analysis [8, 10].
+Recent approaches attempt to de-bias the historical log data by conducting randomization experiments and modeling the bias in user
+behavior. Thus far, the focus has been on addressing bias that arises
+due to the position of the document being clicked (position-bias) or
+sparsity of clicks on certain query-document pairs (selection-bias).
+However, there is another source of bias that could arise: the bias
+due to the context in which a document was presented to the user.
+The propensity of the user clicking on a document depends not
+only on its position but also on many other contextual factors.
+In this work, we show that the existing counterfactual estimators
+fail to capture one type of bias, speci!cally, the e"ect on clickthrough rates due to the relevance of documents ranked above.
+Further, we propose a modi!cation to the existing estimator that
+takes into account this bias. We rely on full result randomization
+that allows us to control for the click context at various ranks; we
+demonstrate the e"ectiveness of our methods in evaluating retrieval
+system through experiments on a simulation setup that is designed
+to cover a wide variety of scenarios}
+} 
+
+
+@inproceedings{Carterette2018,
+author = {Carterette, Ben and Chandar, Praveen},
+title = {Offline Comparative Evaluation with Incremental, Minimally-Invasive Online Feedback},
+booktitle = {Proceedings of the 41st International ACM SIGIR Conference on Research and Development in Information Retrieval},
+series = {SIGIR '18},
+year = {2018},
+month= {July},
+isbn = {},
+location = {Ann Arbor, MI, USA},
+pages = {to appear},
+numpages = {10},
+doi = {10.1145/3209978.3210050},
+publisher = {ACM},
+address = {New York, NY, USA},
+abstract = {We investigate the use of logged user interaction data---queries and clicks---for offline evaluation of new search systems in the context of counterfactual analysis.  The challenge of evaluating a new ranker against log data collected from a static production ranker is that new rankers may retrieve documents that have never been seen in the logs before, and thus lack any logged feedback from users.  Additionally, the ranker itself could bias user actions such that even  documents that have been seen in the logs would have exhibited different interaction patterns had they been retrieved and ranked by the new ranker.  We present a methodology for incrementally logging interactions on previously-unseen documents for use in computation of an unbiased estimator of a new ranker's effectiveness.  Our method is very lightly invasive with respect to the production ranker results to insure against users becoming dissatisfied if the new ranker is poor. We demonstrate how well our methods work in a simulation environment designed to be challenging for such methods to argue that they are likely to work in a wide variety of scenarios.}
+}
+
+@inproceedings{Syler2018,
+author = {Seyler, Dominic and Chandar, Praveen and Davis, Matthew},
+title = {An Information Retrieval Framework for Contextual Suggestion Based on Heterogeneous Information Network Embeddings},
+booktitle = {Proceedings of the 41st International ACM SIGIR Conference on Research and Development in Information Retrieval},
+series = {SIGIR '18},
+year = {2018},
+month= {July},
+isbn = {},
+location = {Ann Arbor, MI, USA},
+pages = {to appear},
+numpages = {4},
+doi = {10.1145/2766462.2767820},
+publisher = {ACM},
+address = {New York, NY, USA},
+abstract = {We present an Information Retrieval framework that leverages Heterogeneous Information Network (HIN) embeddings for contextual suggestion. Our method represents users, documents and other context-related documents as heterogeneous objects in a HIN. Using meta-paths, selected based on domain knowledge, we create graph embeddings from this network, thereby learning a representation of users and objects in the same semantic vector space. This allows inferences of user interest on unseen objects based on distance in the embedding space. These object distances are then incorporated as features in a well-established learning to rank (LTR) framework. We make use of the 2016 TREC Contextual Suggestion (TRECCS) dataset, which contains user profiles in the form of relevance-rated documents, and demonstrate the competitiveness of our approach by comparing our system to the best performing systems of the TRECCS task.}
+}
+
+@inproceedings{Liao2018,
+ author = {Liao, Q. Vera and Mas-ud Hussain, Muhammed and Chandar, Praveen and Davis, Matthew and Khazaeni, Yasaman and Crasso, Marco Patricio and Wang, Dakuo and Muller, Michael and Shami, N. Sadat and Geyer, Werner},
+ title = {All Work and No Play? Conversations with a Question-and-Answer Chatbot in the Wild},
+ booktitle = {Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems},
+ series = {CHI '18},
+ year = {2018},
+ month = {April},
+ isbn = {978-1-4503-5620-6},
+ location = {Montreal QC, Canada},
+ pages = {3:1--3:13},
+ articleno = {3},
+ numpages = {13},
+ url = {http://doi.acm.org/10.1145/3173574.3173577},
+ doi = {10.1145/3173574.3173577},
+ acmid = {3173577},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ abstract = {Many conversational agents (CAs) are developed to answer users' questions in a specialized domain. In everyday use of CAs, user experience may extend beyond satisfying information needs to the enjoyment of conversations with CAs, some of which represent playful interactions. By studying a field deployment of a Human Resource chatbot, we report on users' interest areas in conversational interactions to inform the development of CAs. Through the lens of statistical modeling, we also highlight rich signals in conversational interactions for inferring user satisfaction with the instrumental usage and playful interactions with the agent. These signals can be utilized to develop agents that adapt functionality and interaction styles. By contrasting these signals, we shed light on the varying functions of conversational interactions. We discuss design implications for CAs, and directions for developing adaptive agents based on users' conversational behaviors.},
+} 
+
+
+@InProceedings{Chandar2017,
+author={Chandar, Praveen and Khazaeni, Yasaman and Davis, Matthew and Muller, Michael and Crasso, Marco and Liao, Q. Vera and Shami, N. Sadat and Geyer, Werner},
+title={Leveraging Conversational Systems to Assists New Hires During Onboarding},
+booktitle={Human-Computer Interaction - INTERACT 2017},
+year={2017},
+series = {INTERACT '17},
+month={September},
+publisher={Springer International Publishing},
+pages={381-391},
+abstract={The task of onboarding a new hire consumes great amounts of resources from organizations. The faster a ``newbie'' becomes an ``insider'', the higher the chances of job satisfaction, retention, and advancement in their position. Conversational agents (AI agents) have the potential to effectively transform productivity in many enterprise workplace scenarios so applying them to the onboarding process can prove to be a very solid use case for such agents. In this work, we present a conversational system to aid new hires through their onboarding process. Users interact with the system via an instant messaging platform, to fulfill their work related information needs as if it were a human assistant. We describe the end-to-end process involved in building a domain specific conversational system and share our experiences in deploying it to 344 new hires in a month-long study. The feasibility of our approach is evaluated by analyzing message logs and questionnaires. Through three different measures, we observed an accuracy of about 60% at the message level and a higher than average retention rate for the agent. Our results suggest that this agent-based approach can very well compete with the existing tools for new hires.},
+isbn="978-3-319-67684-5"
+}
+
+
+@article{Hoxha2016,
+author = {Hoxha, Julia and Chandar, Praveen and He, Zhe and Cimino, James and Hanauer, David and Weng, Chunhua},
+title = {DREAM: Classification scheme for dialog acts in clinical research query mediation},
+series = {Journal of Biomedical Informatics},
+year = {2016},
+month= {February},
+volume = {59},
+issue = {1},
+pages = {89--101},
+abstract = {Clinical data access involves complex, but opaque communication between medical researchers and query analysts. Understanding such communication is indispensable for designing intelligent human-machine dialog systems that automate query formulation. This study investigates email communication and proposes a novel scheme for classifying dialog acts in clinical research query mediation. We analyzed 315 email messages exchanged in the communication for 20 data requests obtained from three institutions. The messages were segmented into 1333 utterance units. Through a rigorous process, we developed a classification scheme and applied it for dialog act annotation of the extracted utterances. Evaluation results with high inter-annotator agreement demonstrate the reliability of this scheme. This dataset is used to contribute preliminary understanding of dialog acts distribution and conversation flow in this dialog space.}
+}
+
+@inproceedings{Chandar2015,
+author = {Chandar, Praveen and Yaman, Anil and Hoxha, Julia and He, Zhe and Weng, Chunhua },
+title = {Similarity-based Recommendation of New Concepts to a Terminology},
+series = {AMIA '15},
+booktitle = {Proceedings of AMIA 2015 Annual Symposium},
+year = {2015},
+month= {November},
+pages = {386--395},
+abstract = {Terminologies can suffer from poor concept coverage due to delays in new concept insertion. This study tests a similarity-based approach to recommending concepts from a text corpus to a terminology. Our approach involves extraction of candidate concepts from a given text corpus, which are represented using a set of features. The model learns the important features to characterize a concept and recommends new concepts to a terminology. Further, we propose a cost-effect evaluation methodology to estimate the effectiveness of terminology enrichment methods. To test our methodology, we use the clinical trial eligibility criteria free-text as an example text corpus to recommend concepts for SNOMED CT. We computed precision at various rank intervals to measure the performance of the methods. Results indicate that our automated algorithm is an effective method for concept recommendation.}
+}
+
+@inproceedings{He2015_draft,
+author = {He, Zhe and Chandar, Praveen and Ryan, Patrick and Weng, Chunhua },
+title = {Simulation-based Evaluation of the Generalizability Index for Study Traits},
+series = {AMIA '15},
+booktitle = {Proceedings of AMIA 2015 Annual Symposium},
+year = {2015},
+month= {November},
+pages = {593--602},
+abstract = {The Generalizability Index for Study Traits (GIST) has been proposed recently for assessing the population representativeness of a set of related clinical trials using eligibility features (e.g., age or BMI), one each time. However, GIST has not yet been evaluated. To bridge this knowledge gap, this paper reports a simulation-based validation study for GIST. Using the National Health and Nutrition Examination Survey (NHANES) data, we demonstrated the effectiveness of GIST at quantifying the population representativeness of a set of related trials that differ in disease domains, study phases, sponsor types, and study designs, respectively. We also showed that among seven example medical conditions, the GIST of age increases from Phase I trials to Phase III trials in the seven disease domains and is the lowest in asthma trials. We concluded that GIST correlates with simulation-based generalizability results and is a valid metric for quantifying population representativeness of related clinical trials.}
+}
+
+@inproceedings{Bah2015,
+author = {Bah, Ashraf and Chandar, Praveen and Carterette, Ben},
+title = {Document Comprehensiveness and User Preferences in Novelty Search Tasks},
+booktitle = {Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+series = {SIGIR '15},
+year = {2015},
+month= {July},
+isbn = {978-1-4503-3621-5},
+location = {Santiago, Chile},
+pages = {735--738},
+numpages = {4},
+url = {http://doi.acm.org/10.1145/2766462.2767820},
+doi = {10.1145/2766462.2767820},
+acmid = {2767820},
+publisher = {ACM},
+address = {New York, NY, USA},
+keywords = {diversity, preference judgment, user study},
+abstract = {Different users may be attempting to satisfy different information needs while providing the same query to a search engine. Addressing that issue is addressing Novelty and Diversity in information retrieval. Novelty and Diversity search task models the task wherein users are interested in seeing more and more documents that are not only relevant, but also cover more aspects (or subtopics) related to the topic of interest. This is in contrast with the traditional IR task where topical relevance is the only factor in evaluating search results. In this paper, we conduct a user study where users are asked to give a preference between one of two documents B and C given a query and also given that they have already seen a document A. We then test a total of ten hypotheses pertaining to the relationship between the "comprehensiveness" of documents (i.e. the number of subtopics a document is relevant to) and real users' preference judgments. Our results show that users are inclined to prefer documents with higher comprehensiveness, even when the prior document A already covers more aspects than the two documents being compared, and even when the least preferred has a higher relevance grade. In fact, users are inclined to prefer documents with higher overall aspect-coverage even in cases where B and C are relevant to the same number of novel subtopics.}
+}
+
+@phdthesis{ChandarThesis2014,
+  author = {Chandar, Praveen},
+  month = {August},
+  school = {University of Delaware},
+  booktitle = {University of Delaware},
+  title = {Novelty and Diversity in Search Results},
+  year = {2014},
+  series = {Phd. Thesis},
+  pages = {1--175},
+  abstract = {Information retrieval (IR) is the process of obtaining relevant information for a given information need. The concept of relevance and its relation to information needs is of central concern to IR researchers. Until recently, much work in IR settled with a notion of relevance that is topical -- that is, containing information about a specified topic -- and in which the relevance of a document in a ranking is independent of the relevance of other documents in the ranking. But such an approach is more likely to produce a ranking with a high degree of redundancy; the amount of novel information available to the user may be minimal as they traverse down a ranked list.
+
+
+In this work, we focus on the novelty and diversity problem that models relevance of a document taking into account the inter-document effects in a ranked list and diverse information needs for a given query. Existing approaches to this problem mostly rely on identifying subtopics (disambiguation, facets, or other component parts) of an information need, then estimating a document's relevance independently w.r.t each subtopic. Users are treated as being satisfied by a ranking of documents that covers the space of subtopics as well as covering each individual subtopic sufficiently.
+
+We propose a novel approach that models novelty implicitly while retaining the ability to capture other important factors affecting user satisfaction.
+We formulate a set of hypotheses based on the existing subtopic approach and test them with actual users using a simple conditional preference design: users express a preference for document A or document B given document C.
+Following this, we introduce a novel triplet framework for collecting such preference judgments and using them to estimate the total utility of a document while taking inter-document effects into account.
+Finally, a set of utility-based metrics are proposed and validated to measure the effectiveness of a system for the novelty and diversity task. }
+}
+
+@TECHREPORT{Bah2014,
+author = {Bah, A and Carterette, B and Chandar, P},
+title = {Udel @ NTCIR-11 IMine Track},
+booktitle = {Proceedings of the 11th NTCIR Conference},
+series = {NTCIR '11},
+year = {2014},
+month= {December},
+pages = {80--83},
+abstract = {This paper describes our participation in the Intent Mining track
+of NTCIR-11. We present our methods and results for both
+document ranking and subtopic mining. Our ranking methods are
+based on several data fusion techniques with some variations. Our
+subtopic mining method is a very simple technique that uses query
+dimensions' items to form a subtopic.}
+}
+
+@inproceedings{Chandar2013,
+author = {Chandar, Praveen and Webber, William and Carterette, Ben},
+title = {Document Features Predicting Assessor Disagreement},
+booktitle = {Proceedings of the 36th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+series = {SIGIR '13},
+year = {2013},
+month= {July},
+isbn = {978-1-4503-2034-4},
+location = {Dublin, Ireland},
+pages = {745--748},
+numpages = {4},
+url = {http://doi.acm.org/10.1145/2484028.2484161},
+doi = {10.1145/2484028.2484161},
+acmid = {2484161},
+publisher = {ACM},
+address = {New York, NY, USA},
+keywords = {evaluation, retrieval experiment},
+abstract = {The notion of relevance differs between assessors, thus giving rise to assessor disagreement. Although assessor disagreement has been frequently observed, the factors leading to disagreement are still an open problem. In this paper we study the relationship between assessor disagreement and various topic independent factors such as readability and cohesiveness. We build a logistic model using reading level and other simple document features to predict assessor disagreement and rank documents by decreasing probability of disagreement. We compare the predictive power of these document-level features with that of a meta-search feature that aggregates a document's ranking across multiple retrieval runs. Our features are shown to be on a par with the meta-search feature, without requiring a large and diverse set of retrieval runs to calcu- late. Surprisingly, however, we find that the reading level features are negatively correlated with disagreement, suggesting that they are detecting some other aspect of document content.}
+}
+
+@inproceedings{Chandar2013a,
+author = {Chandar, Praveen and Carterette, Ben},
+ title = {Preference Based Evaluation Measures for Novelty and Diversity},
+ booktitle = {Proceedings of the 36th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+ series = {SIGIR '13},
+ year = {2013},
+ month= {July},
+ isbn = {978-1-4503-2034-4},
+ location = {Dublin, Ireland},
+ pages = {413--422},
+ numpages = {10},
+ url = {http://doi.acm.org/10.1145/2484028.2484094},
+ doi = {10.1145/2484028.2484094},
+ acmid = {2484094},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {evaluation, novelty and diversity},
+ abstract = {Novel and diverse document ranking is an effective strategy that involves reducing redundancy in a ranked list to maximize the amount of novel and relevant information available to users. Evaluation for novelty and diversity typically involves an assessor judging each document for relevance against a set of pre-identified subtopics, which may be disambiguations of the query, facets of an information need, or nuggets of information. Alternately, when expressing a preference for document A or document B, users may implicitly take subtopics into account, but may also take into account other factors such as recency, readability, length, and so on, each of which may have more or less importance depending on user. A user profile contains information about the extent to which each factor, including subtopic relevance, plays a role in the user's preference for one document over another. A preference-based evaluation can then take this user profile information into account to better model utility to the space of users.
+In this work, we propose an evaluation framework that not only can consider implicit factors but also handles differences in user preference due to varying underlying information need. Our proposed framework is based on the idea that a user scanning a ranked list from top to bottom and stopping at rank k gains some utility from every document that is relevant their information need. Thus, we model the expected utility of a ranked list by estimating the utility of a document at a given rank using preference judgments and define evaluation measures based on the same. We validate our framework by comparing it to existing measures such as alpha-nDCG, ERR-IA, and subtopic recall that require explicit subtopic judgments We show that our proposed measures correlate well with existing measures while having the potential to capture various other factors when real data is used. We also show that the proposed measures can easily handle relevance assessments against multiple user profiles, and that they are robust to noisy and incomplete judgments.}
+}
+
+@inproceedings{Chandar2012a,
+author = {Chandar, Praveen and Carterette, Ben},
+title = {Using Preference Judgments for Novel Document Retrieval},
+booktitle = {Proceedings of the 35th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+series = {SIGIR '12},
+year = {2012},
+month= {July},
+isbn = {978-1-4503-1472-5},
+location = {Portland, Oregon, USA},
+pages = {861--870},
+numpages = {10},
+url = {http://doi.acm.org/10.1145/2348283.2348398},
+doi = {10.1145/2348283.2348398},
+acmid = {2348398},
+publisher = {ACM},
+address = {New York, NY, USA},
+keywords = {diversity, preference judgments, user study},
+abstract = {There has been considerable interest in incorporating diversity in search results to account for redundancy and the space of possible user needs. Most work on this problem is based on subtopics: diversity rankers score documents against a set of hypothesized subtopics, and diversity rankings are evaluated by assigning a value to each ranked document based on the number of novel (and redundant) subtopics it is relevant to. This can be seen as modeling a user who is always interested in seeing more novel subtopics, with progressively decreasing interest in seeing the same subtopic multiple times. We put this model to test: if it is correct, then users, when given a choice, should prefer to see a document that has more value to the evaluation. We formulate some specific hypotheses from this model and test them with actual users in a novel preference-based design in which users express a preference for document A or document B given document C. We argue that while the user study shows the subtopic model is good, there are many other factors apart from novelty and redundancy that may be influencing user preferences. From this, we introduce a new framework to construct an ideal diversity ranking using only preference judgments, with no explicit subtopic judgments whatsoever.}
+}
+
+@inproceedings{Webber2012,
+author = {Webber, William and Chandar, Praveen and Carterette, Ben},
+title = {Alternative Assessor Disagreement and Retrieval Depth},
+booktitle = {Proceedings of the 21st ACM International Conference on Information and Knowledge Management},
+series = {CIKM '12},
+year = {2012},
+month= {November},
+isbn = {978-1-4503-1156-4},
+location = {Maui, Hawaii, USA},
+pages = {125--134},
+numpages = {10},
+url = {http://doi.acm.org/10.1145/2396761.2396781},
+doi = {10.1145/2396761.2396781},
+acmid = {2396781},
+publisher = {ACM},
+address = {New York, NY, USA},
+keywords = {evaluation, retrieval experiment, sampling},
+abstract = {Assessors are well known to disagree frequently on the relevance of documents to a topic, but the factors leading to assessor disagreement are still poorly understood. In this paper, we examine the relationship between the rank at which a document is returned by a set of retrieval systems and the likelihood that assessors will disagree on its relevance, and find that there is a strong and consistent correlation between the two. We adopt a meta-rank method of summarizing a document's rank across multiple runs, and propose a logistic regression predictive model of assessor disagreement given meta-rank and initially-assessed relevance. The consistency of the model parameters across different topics, assessor pairs, and collections is considered. The model gives comparatively accurate predictions of absolute scores, but less consistent predictions of relative scores than a simpler rank-insensitive model. We demonstrate that the logistic regression model is robust to using sampled, rather than exhaustive, dual assessment. We demonstrate the use of the sampled predictive model to incorporate assessor disagreement into tests of statistical significance.}
+}
+
+@inproceedings{Chandar2012b,
+author = {Chandar, Praveen and Carterette, Ben},
+title = {What Qualities Do Users Prefer in Diversity Rankings?},
+booktitle = {Proceedings of the 2nd International Workshop on Diversity in Document Retrieval at Web Search and Data Mining Conference},
+year = {2012},
+month= {February},
+series = {WSDM '12},
+pages = {10--16},
+abstract = {}
+}
+
+@inproceedings{Chandar2012,
+author = {Chandar, Praveen and Carterette, Ben},
+title = {Using PageRank to Infer User Preferences},
+booktitle = {Proceedings of the 35th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+series = {SIGIR '12},
+year = {2012},
+month= {July},
+isbn = {978-1-4503-1472-5},
+location = {Portland, Oregon, USA},
+pages = {1167--1168},
+numpages = {2},
+url = {http://doi.acm.org/10.1145/2348283.2348522},
+doi = {10.1145/2348283.2348522},
+acmid = {2348522},
+publisher = {ACM},
+address = {New York, NY, USA},
+keywords = {PageRank, preference judgments},
+abstract = {Recently, researchers have shown interest in the use of preference judgments for evaluation in IR literature. Although preference judgments have several advantages over absolute judgment, one of the major disadvantages is that the number of judgments needed increases polynomially as the number of documents in the pool increases. We propose a novel method using PageRank to minimize the number of judgments required to evaluate systems using preference judgments. We test the proposed hypotheses using the TREC 2004 to 2006 Terabyte dataset to show that it is possible to reduce the evaluation cost considerably. Further, we study the susceptibility of the methods due to assessor errors.}
+}
+
+@TECHREPORT{Carterette2011b,
+author = {Carterette, Ben and Chandar, Praveen},
+title = {Implicit Feedback and Document Filtering for Retrieval Over Query Sessions},
+booktitle = {Proceedings of The Twentieth Text REtrieval Conference, TREC 2011, Gaithersburg, Maryland, USA},
+series = {TREC '11},
+month= {November},
+year = {2011},
+pages = {1--3},
+abstract = {}
+}
+
+
+@inproceedings{Chandar2011,
+author = {Chandar, Praveen and Carterette, Ben},
+title = {Analysis of Various Evaluation Measures for Diversity},
+booktitle = {Proceedings of the 1st International Workshop on Diversity in Document Retrieval at European Conference on Information Retrieval},
+year = {2011},
+series = {ECIR '11},
+month= {April},
+pages = {21--28},
+abstract = {Evaluation measures play a vital role in analyzing the performance of a system, comparing two or more systems, and optimizing systems to perform some task. In this paper, we analyze and highlight the strengths and weaknesses of commonly used measures for evaluating the diversity in search results. We compare MAP-IA, alpha-nDCG, and ERR-IA using data from TREC'09 web track diversity runs and simulated data. We describe a class of test sets that could be used to compare evaluation measure and systems used for diversifying search results.}
+}
+
+@TECHREPORT{Carterette2010,
+author={Carterette, Ben and Chandar, Praveen},
+title = {Sessions, Diversity, and Ad Hoc Retrieval},
+booktitle = {Proceedings of The Ninth Text REtrieval Conference, TREC 2010, Gaithersburg, Maryland, USA},
+series = {TREC '10},
+year = {2010},
+month= {November},
+pages = {1--6},
+abstract = {}
+}
+
+@inproceedings{Chandar2010,
+author = {Chandar, Praveen and Carterette, Ben},
+title = {Diversification of Search Results Using Webgraphs},
+booktitle = {Proceedings of the 33rd International ACM SIGIR Conference on Research and Development in Information Retrieval},
+series = {SIGIR '10},
+year = {2010},
+month= {July},
+isbn = {978-1-4503-0153-4},
+location = {Geneva, Switzerland},
+pages = {869--870},
+numpages = {2},
+url = {http://doi.acm.org/10.1145/1835449.1835657},
+doi = {10.1145/1835449.1835657},
+acmid = {1835657},
+publisher = {ACM},
+address = {New York, NY, USA},
+keywords = {diversity, information retrieval, webgraphs},
+abstract = {A set of words is often insufficient to express a user's information need. In order to account for various information needs associated with a query, diversification seems to be a reasonable strategy. By diversifying the result set, we increase the probability of results being relevant to the user's information needs when the given query is ambiguous. A diverse result set must contain a set of documents that cover various subtopics for a given query. We propose a graph based method which exploits the link structure of the web to return a ranked list that provides complete coverage for a query. Our method not only provides diversity to the results set, but also avoids excessive redundancy. Moreover, the probability of relevance of a document is conditioned on the documents that appear before it in the result list. We show the effectiveness of our method by comparing it with a query-likelihood model as the baseline.}
+}
+
+@TECHREPORT{Carterette2009b,
+author={Carterette, Ben and Chandar, Praveen and Kailasam, Aparna and Muppaneni, Divya and Thota, Lekha},
+title = {Minimal Test Collections for Relevance Feedback},
+booktitle = {Proceedings of The Eighteenth Text REtrieval Conference, TREC 2009, Gaithersburg, Maryland, USA},
+series = {TREC '09},
+year = {2009},
+month= {November},
+pages = {1--6},
+abstract = {The Information Retrieval Lab at the University of Delaware participated in the Relevance Feedback track at TREC 2009. We used only the Category B subset of the ClueWeb collection; our preprocessing and indexing steps are described in our paper on ad hoc and diversity runs. The second year of the Relevance Feedback track focused on selection of documents for feedback. Our hypothesis is that documents that are good at distinguishing systems in terms of their effectiveness by mean average precision will also be good documents for relevance feedback. Thus we have applied the document selection algorithm MTC (Minimal Test Collections) developed by Carterette et al.  that is used in the Million Query Track for selecting documents to be judged to find the right ranking of systems. Our approach can therefore be described as "MTC for Relevance Feedback".}
+}
+
+@TECHREPORT{Chandar2009,
+author={Chandar, Praveen and Kailasam, Aparna and Muppaneni, Divya and Thota, Sree Lekha and Carterette, Ben},
+title = {Ad hoc and diversity retrieval at the University of Delaware},
+booktitle = {Proceedings of The Eighteenth Text REtrieval Conference, TREC 2009, Gaithersburg, Maryland, USA},
+series = {TREC '09},
+year = {2009},
+month= {November},
+pages = {1--8},
+abstract = {This is the report on the University of Delaware Information Retrieval Lab's participation in the TREC 2009 Web and Million Query tracks. Our report on the Relevance Feedback track is in a separate document titled Minimal test collections for relevance feedback.}
+}
+
+@inproceedings{Carterette2009,
+author = {Carterette, Ben and Chandar, Praveen},
+title = {Probabilistic Models of Ranking Novel Documents for Faceted Topic Retrieval},
+booktitle = {Proceedings of the 18th ACM Conference on Information and Knowledge Management},
+series = {CIKM '09},
+year = {2009},
+month= {November},
+isbn = {978-1-60558-512-3},
+location = {Hong Kong, China},
+pages = {1287--1296},
+numpages = {10},
+url = {http://doi.acm.org/10.1145/1645953.1646116},
+doi = {10.1145/1645953.1646116},
+acmid = {1646116},
+publisher = {ACM},
+address = {New York, NY, USA},
+keywords = {diversity, information retrieval, novelty, probabilistic models},
+abstract = {Traditional models of information retrieval assume documents are independently relevant. But when the goal is retrieving diverse or novel information about a topic, retrieval models need to capture dependencies between documents. Such tasks require alternative evaluation and optimization methods that operate on different types of relevance judgments. We define faceted topic retrieval as a particular novelty-driven task with the goal of finding a set of documents that cover the different facets of an information need. A faceted topic retrieval system must be able to cover as many facets as possible with the smallest number of documents. We introduce two novel models for faceted topic retrieval, one based on pruning a set of retrieved documents and one based on retrieving sets of documents through direct optimization of evaluation measures. We compare the performance of our models to MMR and the probabilistic model due to Zhai et al. on a set of 60 topics annotated with facets, showing that our models are competitive.}
+}
+
