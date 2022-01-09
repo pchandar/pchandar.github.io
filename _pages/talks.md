@@ -43,8 +43,8 @@ Invited Talk: <a href="https://www.rmit.edu.au">RMIT</a>, Oct'21
 
 
 <p style="font-family: 'Lato'">
-Mixed Method Development of Evaluation Metrics[<a href="">slides</a>]<br>
-Research Talk: Counterfactual Evaluation of Sequential Recommendations <a href="https://www.kdd.org">KDD</a>, Sept'21
+Counterfactual Evaluation of Sequential Recommendations[<a href="">slides</a>]<br>
+Research Talk: <a href="https://www.kdd.org">KDD</a>, Sept'21
 </p>
 
 
