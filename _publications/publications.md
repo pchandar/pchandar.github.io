@@ -12,6 +12,13 @@ You can also find my articles on my
 
 
 
+2022
+========
+
+<p style="font-family: 'Lato'">Estimating Long-Term Engagement in Online Experiments using Survival Models<br><B><em>Praveen Chandar</em></B>, Brian St., Lucas Maystre, Vijay Pappu, Roberto Sanchis, Tiffany Wu, Ben Carterette, Mounia Lalmas, Tony Jebara<br><a href="/files/papers/Chandar2022.pdf">WWW  2022</a></p>
+
+<p style="font-family: 'Lato'">Choice of Implicit Signal Matters: Accounting for UserAspirations in Podcast Recommendations<br>Zahra Nazari, <B><em>Praveen Chandar</em></B>, Ghazal Fazelnia, Catie Edwards, Benjamin Carterette, Mounia Lalmas<br><a href="/files/papers/Zahra2022.pdf">WWW  2022</a></p>
+
 2021
 ========
 
@@ -30,9 +37,9 @@ You can also find my articles on my
 
 <p style="font-family: 'Lato'">Counterfactual Evaluation of Slate Recommendations with Sequential Reward Interactions<br><B><em>Praveen Chandar</em></B>, James McInerney, Brian Brost, Rishabh Mehrotra, Benjamin Carterette<br><a href="/files/papers/Chandar2020.pdf">KDD  2020</a></p>
 
-<p style="font-family: 'Lato'">The Engagement-Diversity Connection: Evidence from a Field Experiment on Spotify<br>David Holtz, Ben Carterette, <B><em>Praveen Chandar</em></B>, Zahra Nazari, Henriette Cramer, Sinan Aral<br><a href="/files/papers/10.1145/3391403.3399532.pdf">EC  2020</a></p>
+<p style="font-family: 'Lato'">The Engagement-Diversity Connection: Evidence from a Field Experiment on Spotify<br>David Holtz, Ben Carterette, <B><em>Praveen Chandar</em></B>, Zahra Nazari, Henriette Cramer, Sinan Aral<br><a href="/files/papers/Holtz2020.pdf">EC  2020</a></p>
 
-<p style="font-family: 'Lato'">Do Podcasts and Music Compete with One Another? Understanding Users’ Audio Streaming Habits<br>Ang Li, Alice Wang, Zahra Nazari, <B><em>Praveen Chandar</em></B>, Benjamin Carterette<br><a href="/files/papers/10.1145/3366423.3380260.pdf">WWW  2020</a></p>
+<p style="font-family: 'Lato'">Do Podcasts and Music Compete with One Another? Understanding Users’ Audio Streaming Habits<br>Ang Li, Alice Wang, Zahra Nazari, <B><em>Praveen Chandar</em></B>, Benjamin Carterette<br><a href="/files/papers/Li2020.pdf">WWW  2020</a></p>
 
 2019
 ========
